@@ -34,7 +34,7 @@ public class oyunkontrol : MonoBehaviour
 
     public void OyunBitti()
     {
-        PlayerPrefs.SetInt("puan", puan); //oturumlar/sessions ya da bölümler/levels arasýnda geçiþ yaparken verilerin kaybolmamasý için PlayerPrefs kullanýlýr.
+        PlayerPrefs.SetInt("puan", puan); 
         SceneManager.LoadScene("oyunBitti");
     }
 }
